@@ -11,12 +11,12 @@
   height: 100%;
 }
 
-.header {
+header {
   padding: center;
   margin: center;
 }
 
-.navigation{
+nav{
   padding: right;
 }
 
@@ -50,11 +50,13 @@
   float: left;
 }
 
-.footer {
-  padding-right: 15px;
-  background:#323232;
-  height: auto;
-  clear: both;
+footer {
+    clear: left;
+    padding-right: 15px;
+    background:black;
+    height: 10px;
+    clear: both;
+
 }
 
 .products  {
