@@ -6,27 +6,29 @@
 </head>
 <body>
 <div class="main">
-  <div class="header">
+  <header>
   <h1 align="left">CellPhone Shit</h1>
   <p align="right">
     <img src="img/warenkorb-icon.jpg" width="35" height="25">Warenkorb
 	<img src="img/icon_register.jpg" width="35" height="25">Anmelden
   </p>
   
-	<div class="navigation">
-	  <div align="right">
+	<nav>
+	  <div class="navigation">
 	    <?php include("pages/navi.html");?>
 	  </div>
-    </div>
-   </div>	
-	<div class="clear">ZeilenSprung</div>
+    </nav>
+  </header>	
+	<br />
+	
+	
 	<div class="slider">
 	  <div align="center">
 	    <img src="img/iphone2.jpg" width="1000" height="400">
 	  </div>
     </div>
 
-  <div class="clear">ZeilenSprung</div>
+  <br />
      
   
  
@@ -119,9 +121,9 @@
 	  </div>
   
 
-  <div class="footer">
+  <footer>
     <p align="center">Copyright &copy;  2015 by CellPhone Shit</p>
-  </div>
+  </footer>
 
 </div>
 </body>

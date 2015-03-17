@@ -11,24 +11,24 @@
   height: 100%;
 }
 
-.header {
-  padding: center;
-  margin: center;
-}
+
+/* Navigation */
 
 .navigation{
-  padding: right;
+  float: right;
 }
 
 .navigation:hover{
  
 }
 
+/* Content */
+
 .contentBox  {
   margin: 5px;
   padding: 5px 20px 20px 80px;
   background: ;
-  width: 1200px;
+  width: auto;
   height: auto;
   float: left;
 }
@@ -36,7 +36,7 @@
 .sidebarleft {
   padding: 0;
   float: left;
-  width: 240px;
+  width: 120px;
   height: auto;
   background: #E1F8FB;
   float: left;
@@ -44,17 +44,10 @@
 
 .sidebarright{
   padding: 0;
-  width: 180px;
+  width: 120px;
   height: auto;
   background: #E1F8FB;
   float: left;
-}
-
-.footer {
-  padding-right: 15px;
-  background:#323232;
-  height: auto;
-  clear: both;
 }
 
 .products  {
@@ -77,7 +70,14 @@
  box-shadow: 0 0 20px #ccc;
 }
 
+/* Footer */
 
+footer {
+  padding-right: 15px;
+  background:#323232;
+  height: auto;
+  clear: both;
+}
 
 
 
