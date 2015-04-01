@@ -11,6 +11,7 @@
   height: 100%;
 }
 
+
 header {
   padding: center;
   margin: center;
@@ -18,11 +19,14 @@ header {
 
 nav{
   padding: right;
+
 }
 
 .navigation:hover{
  
 }
+
+/* Content */
 
 .contentBox  {
   margin: 5px;
@@ -36,7 +40,7 @@ nav{
 .sidebarleft {
   padding: 0;
   float: left;
-  width: 240px;
+  width: 120px;
   height: auto;
   background: #E1F8FB;
   float: left;
@@ -44,11 +48,12 @@ nav{
 
 .sidebarright{
   padding: 0;
-  width: 180px;
+  width: 120px;
   height: auto;
   background: #E1F8FB;
   float: left;
 }
+
 
 footer {
     clear: left;
@@ -58,6 +63,7 @@ footer {
     clear: both;
 
 }
+
 
 .products  {
   float: center;
@@ -79,7 +85,14 @@ footer {
  box-shadow: 0 0 20px #ccc;
 }
 
+/* Footer */
 
+footer {
+  padding-right: 15px;
+  background:#323232;
+  height: auto;
+  clear: both;
+}
 
 
 

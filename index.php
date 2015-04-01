@@ -13,6 +13,7 @@
 
 <body>
 <div class="main">
+
     <nav>
         <div align="right">
             <?php include("pages/navi.html"); ?>
@@ -64,6 +65,7 @@
 
                         <p>Fabrik neu</p>
         </p>
+
     </div>
     </td>
     <td>
@@ -173,9 +175,11 @@
 </div>
 
 
+
 <footer>
     Copyright &copy; 2015 by CellPhone Shit
 </footer>
+
 
 </div>
 </body>
