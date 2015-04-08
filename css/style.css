@@ -5,7 +5,7 @@
   color:#585757; 
 }
 
-.main {
+main {
   margin: 5px;
   width: auto;
   height: 100%;
@@ -13,14 +13,28 @@
 
 
 header {
-  padding: center;
-  margin: center;
+    padding: 6px;
+    margin: 1px 10px 1px 10px;
+    background:lightyellow;
+    height: auto;
+    clear: both;
+    text-align: left;
 }
 
 nav{
   padding: right;
 
 }
+
+footer{
+    padding: 6px;
+    margin: 1px 10px 1px 10px;
+    background:lightyellow;
+    height: auto;
+    clear: both;
+    text-align: center;
+}
+
 
 .navigation:hover{
  
@@ -55,14 +69,7 @@ nav{
 }
 
 
-footer {
-    clear: left;
-    padding-right: 15px;
-    background:black;
-    height: 10px;
-    clear: both;
 
-}
 
 
 .products  {
@@ -87,13 +94,11 @@ footer {
 
 /* Footer */
 
-footer {
-  padding-right: 15px;
-  background:#323232;
-  height: auto;
-  clear: both;
-}
 
+
+.warenkorb{
+    float: right;
+}
 
 
 

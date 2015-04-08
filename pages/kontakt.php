@@ -4,7 +4,7 @@
 </head>
 
 <body>
-<?php_egg_logo_guid
+<?php
 
 /* Betreff und E-Mail Variable */
 

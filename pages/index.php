@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mobile Devices Shop</title>
+<?php include("../helpers/header.php"); ?>
+<?php include("../helpers/navigation.php"); ?>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css">
-
-</head>
-
-
-<body>
-<div class="main">
-
-    <nav>
-        <div align="right">
-            <?php include("pages/navi.html"); ?>
-        </div>
-    </nav>
-
-    <header>
-        <h1 align="left">CellPhone Shit</h1>
-
-        <p align="right">
-            <img src="img/warenkorb-icon.jpg" width="35" height="25">Warenkorb
-            <img src="img/icon_register.jpg" width="35" height="25">Anmelden
-        </p>
-    </header>
-
+<main>
     <div class="clear">ZeilenSprung</div>
 
     <div class="slider">
         <div align="center">
-            <img src="img/iphone2.jpg" width="1000" height="400">
+            <img src="../img/iphone2.jpg" width="1000" height="400">
         </div>
     </div>
 
@@ -57,7 +30,7 @@
                 <td>
                     <div class="products">
                         <p align="center">
-                            <img src="img/iphone_6_space_gray.png" width="130px" height="100px">
+                            <img src="../img/iphone_6_space_gray.png" width="130px" height="100px">
 
                         <h2>Iphone 6</h2>
 
@@ -65,13 +38,12 @@
 
                         <p>Fabrik neu</p>
         </p>
-
     </div>
     </td>
     <td>
         <div class="products">
             <p align="center">
-                <img src="img/galaxy_s6_edge_black.png" width="130px" height="100px">
+                <img src="../img/galaxy_s6_edge_black.png" width="130px" height="100px">
 
             <h2>Samsung S6</h2>
 
@@ -84,7 +56,7 @@
     <td>
         <div class="products">
             <p align="center">
-                <img src="img/htc_one_m9_silver.png" width="130px" height="100px">
+                <img src="../img/htc_one_m9_silver.png" width="130px" height="100px">
 
             <h2>HTC One M9 silver on gold</h2>
 
@@ -99,7 +71,7 @@
     <td>
         <div class="products">
             <p align="center">
-                <img src="img/lumia_930_black.png" width="130px" height="100px">
+                <img src="../img/lumia_930_black.png" width="130px" height="100px">
 
             <h2>Nokia Lumia 930 schwarz</h2>
 
@@ -116,7 +88,7 @@
         <td>
             <div class="products">
                 <p align="center">
-                    <img src="img/connect_basic.png" width="130px" height="100px">
+                    <img src="../img/connect_basic.png" width="130px" height="100px">
 
                 <h2>Emporia Connect Basic</h2>
 
@@ -131,7 +103,7 @@
         <td>
             <div class="products">
                 <p align="center">
-                    <img src="img/lg_g3_black.png" width="130px" height="100px">
+                    <img src="../img/lg_g3_black.png" width="130px" height="100px">
 
                 <h2>LG G3 16GB schwarz</h2>
 
@@ -144,7 +116,9 @@
             </div>
         </td>
     </tr>
+
     </table>
+
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
     magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
     gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -164,23 +138,19 @@
     Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim
     assum.
     </p>
-</div>
+    </div>
 
-<div class="sidebarright">
-    <p><a href="#">Beispiel 4</a></p>
+    <div class="sidebarright">
+        <p><a href="#">Beispiel 4</a></p>
 
-    <p><a href="#">Beispiel 5</a></p>
+        <p><a href="#">Beispiel 5</a></p>
 
-    <p><a href="#">Beispiel 6</a></p>
-</div>
+        <p><a href="#">Beispiel 6</a></p>
+    </div>
+</main>
+
+<?php
+include("../helpers/footer.php");
+?>
 
 
-
-<footer>
-    Copyright &copy; 2015 by CellPhone Shit
-</footer>
-
-
-</div>
-</body>
-</html>
