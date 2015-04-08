@@ -1,12 +1,12 @@
 
 
-<div class="warenkorb">
+<div class="right">
     <img src="../img/warenkorb-icon.jpg" width="35" height="25">Warenkorb
     <img src="../img/icon_register.jpg" width="35" height="25">Anmelden
 </div>
 
 <nav>
-    <div align="right">
+    <div class="right">
 
         <?php
         echo "<a href=\"index.php\"><img src=\"../Button/home.jpg\" height=\"30px\" width=\"135px\"></a>";

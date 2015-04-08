@@ -1,17 +1,3 @@
-.body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  color:#585757; 
-}
-
-main {
-  margin: 5px;
-  width: auto;
-  height: 100%;
-}
-
-
 header {
     padding: 6px;
     margin: 1px 10px 1px 10px;
@@ -22,8 +8,13 @@ header {
 }
 
 nav{
-  padding: right;
+    padding: right;
 
+}
+main {
+    margin: 5px;
+    width: auto;
+    height: 100%;
 }
 
 footer{
@@ -35,6 +26,12 @@ footer{
     text-align: center;
 }
 
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color:#585757; 
+}
 
 .navigation:hover{
  
@@ -96,8 +93,14 @@ footer{
 
 
 
-.warenkorb{
+.right{
     float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
